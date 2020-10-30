@@ -28,7 +28,13 @@ public class ParseExcel {
 //    }
 
     public static void main(String[] args) {
-        ParseSettleBatch.parseExcel("C:\\Users\\yx\\Desktop\\查询党委清算费用清单(17016201040011302-1-2020-09).xlsx"
-        ,"C:\\Users\\yx\\Desktop\\mine.txt");
-    }
+            ParseSettleBatch.parseExcel2("D:\\dingding\\10月份\\10-29\\清算失败2家");
+        }
+
+//        ParseSettleBatch.parseExcel2("D:\\dingding\\10-10\\滨州社会化服务协调中心党委清算党费缴纳明细对账单.xls"
+//        ,"D:\\dingding\\10-10\\mine.txt");
+
+//        File file = new File("D:\\dingding\\10-10\\滨州社会化服务协调中心党委清算党费缴纳明细对账单.xls");
+//        ParseSettleBatch.parseExcel2(file.getAbsolutePath(),file.getParentFile().getAbsolutePath()+"/"+file.getName().substring(0,file.getName().lastIndexOf('.'))+".txt");
+
 }
