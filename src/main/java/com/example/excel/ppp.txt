@@ -1,0 +1,23 @@
+
+INSERT INTO `fintech_pay_dev`.`tbl_pagy_mcht_info`(`seq_id`, `chl_no`, `mcht_no`, `pagy_no`, `super_pagy_mcht_no`, `pagy_mcht_no`, `protocol_no`, `app_id`, `open_id`, `union_id`, `pay_limit`, `pagy_mcht_state`, `create_time`, `create_user`, `update_time`, `update_user`, `version`) VALUES ('8202011200000014401', '1001', '820201124000001', '4401', NULL, '020048162585', '0200481625850201', NULL, NULL, NULL, NULL, '00', '2020-11-24 16:17:22', 'admin', '2020-11-24 16:17:28', 'admin', NULL);
+INSERT INTO `fintech_pay_dev`.`tbl_pagy_mcht_info`(`seq_id`, `chl_no`, `mcht_no`, `pagy_no`, `super_pagy_mcht_no`, `pagy_mcht_no`, `protocol_no`, `app_id`, `open_id`, `union_id`, `pay_limit`, `pagy_mcht_state`, `create_time`, `create_user`, `update_time`, `update_user`, `version`) VALUES ('8202011200000014501', '1001', '820201124000001', '4501', NULL, '020048162585', '0200481625850201', NULL, NULL, NULL, NULL, '00', '2020-11-24 16:17:22', 'admin', '2020-11-24 16:17:28', 'admin', NULL);
+INSERT INTO `fintech_pay_dev`.`tbl_pagy_mcht_info`(`seq_id`, `chl_no`, `mcht_no`, `pagy_no`, `super_pagy_mcht_no`, `pagy_mcht_no`, `protocol_no`, `app_id`, `open_id`, `union_id`, `pay_limit`, `pagy_mcht_state`, `create_time`, `create_user`, `update_time`, `update_user`, `version`) VALUES ('8202011200000015101', '1001', '820201124000001', '5101', NULL, '020048162585', '0200481625850201', NULL, NULL, NULL, NULL, '00', '2020-11-24 16:17:22', 'admin', '2020-11-24 16:17:28', 'admin', NULL);
+
+
+INSERT INTO `tbl_pay_mcht_sec_bind_info` VALUES ('0201820201124000001', '820201124000001', '02', '01', '1202224512262352898', '00', '2020-09-27 12:12:12', 'admin', '2020-09-27 12:12:12', 'admin', '0');
+
+
+
+insert  into `tbl_pay_core_mcht_rel_prod_info`(`bind_no`,`mcht_no`,`pay_prod_id`,`data_state`,`create_time`,`create_user`,`update_time`,`update_user`,`version`) values ('8202011240000010102','820201124000001','P0102','00','2020-11-24 12:12:12',NULL,'2020-11-24 12:12:12',NULL,0);
+insert  into `tbl_pay_core_mcht_rel_prod_info`(`bind_no`,`mcht_no`,`pay_prod_id`,`data_state`,`create_time`,`create_user`,`update_time`,`update_user`,`version`) values ('8202011240000010202','820201124000001','P0202','00','2020-11-24 12:12:12',NULL,'2020-11-24 12:12:12',NULL,0);
+insert  into `tbl_pay_core_mcht_rel_prod_info`(`bind_no`,`mcht_no`,`pay_prod_id`,`data_state`,`create_time`,`create_user`,`update_time`,`update_user`,`version`) values ('8202011240000010302','820201124000001','P0302','00','2020-11-24 12:12:12',NULL,'2020-11-24 12:12:12',NULL,0);
+
+
+/**商户中心执行**/
+INSERT INTO "TBL_MCHT_BASE_INFO" VALUES ('820201124000001', '扫码测试商户', '扫码测试商户', '1001', null, null, null, null, null, null, null, null, '01', 'admin', TO_DATE('2020-11-24 12:12:12', 'YYYY-MM-DD HH24:MI:SS'), 'admin', TO_DATE('2020-11-24 12:12:12', 'YYYY-MM-DD HH24:MI:SS'), '0');
+
+INSERT INTO `fintech_pay_dev`.`tbl_pay_mcht_bind_qrc_info`(`bind_no`, `mcht_no`, `qrc_type_no`, `qrc_url_code`, `qrc_bind_info`, `qrc_state`, `qrc_begain_time`, `qrc_end_time`, `create_time`, `create_user`, `update_time`, `update_user`, `version`) VALUES ('1', '820201124000001', 'QR01', 'https://qr.95516.com/01020001/wcqr?f=ICBCqr&X=1&T=3&P=13&I=e03d925776684b4d&N=b4cbb142eeafe2bddce7a7878c57f5ca&L=3f7aafc9dbc03de742513fbb73a33800f4fd87cd3228d7067f765e2d3825da34e991348c2c1ba63c9c0f26f37dba38582af708cda17fbfa1', '{\"address\":\"北京市\"}', '00', NULL, NULL, '2020-11-24 16:30:55', NULL, '2020-11-24 16:31:01', NULL, 0);
+
+
+
+INSERT INTO `fintech_pay_dev`.`tbl_pay_security_info`(`sec_id`, `sec_name`, `sec_desc`, `sec_type`, `get_type`, `sec_value`, `sec_file_path`, `sec_file_path_user_name`, `sec_file_path_password`, `create_time`, `create_user`, `update_time`, `update_user`, `version`) VALUES ('1202224512262352898', '扫码测试商户安全配置', '扫码测试商户RSA公钥安全配置', '01', '01', '', NULL, NULL, NULL, '2020-04-07 11:22:28', '0', '2020-04-08 11:22:38', '0', 0);

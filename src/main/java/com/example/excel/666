@@ -1,0 +1,186 @@
+
+SELECT * FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn in (
+'410168712980827996160',
+'410168712981830295552',
+'410168712983696625664',
+'410168712986808934400',
+'410168712988998225920',
+'410169733058209763328',
+'410169820105050284032',
+'410169820107017412608',
+'410169820109085069312',
+'410169820122301591552',
+'410169820123341783040',
+'410169820129435967488',
+'410169820130413105152',
+'410169820135723094016',
+'410169820146351734784',
+'410169820149115641856',
+'410169820150092779520',
+'410169820153989423104',
+'410169821127722262528',
+'410169821129635004416',
+'410169821134731083776',
+'410169821140477280256',
+'410169821146890096640',
+'410169821147821502464',
+'410169826405087969280',
+'410169826407021404160',
+'410169826413010870272',
+'410169826440609529856');
+
+
+
+
+update tbl_pay_order_txn_info set core_txn_ssn = SELECT core_txn_ssn FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set core_txn_time = SELECT core_txn_time FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_prod_id = SELECT pay_prod_id FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_type = SELECT pay_type FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+
+update tbl_pay_order_txn_info set core_txn_ssn = SELECT core_txn_ssn FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set core_txn_time = SELECT core_txn_time FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_prod_id = SELECT pay_prod_id FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_type = SELECT pay_type FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+
+update tbl_pay_order_txn_info set core_txn_ssn = SELECT core_txn_ssn FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set core_txn_time = SELECT core_txn_time FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_prod_id = SELECT pay_prod_id FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_type = SELECT pay_type FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+
+update tbl_pay_order_txn_info set core_txn_ssn = SELECT core_txn_ssn FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set core_txn_time = SELECT core_txn_time FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_prod_id = SELECT pay_prod_id FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_type = SELECT pay_type FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+
+update tbl_pay_order_txn_info set core_txn_ssn = SELECT core_txn_ssn FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set core_txn_time = SELECT core_txn_time FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_prod_id = SELECT pay_prod_id FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_type = SELECT pay_type FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+
+update tbl_pay_order_txn_info set core_txn_ssn = SELECT core_txn_ssn FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set core_txn_time = SELECT core_txn_time FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_prod_id = SELECT pay_prod_id FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_type = SELECT pay_type FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+
+update tbl_pay_order_txn_info set core_txn_ssn = SELECT core_txn_ssn FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set core_txn_time = SELECT core_txn_time FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_prod_id = SELECT pay_prod_id FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_type = SELECT pay_type FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+
+update tbl_pay_order_txn_info set core_txn_ssn = SELECT core_txn_ssn FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set core_txn_time = SELECT core_txn_time FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_prod_id = SELECT pay_prod_id FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_type = SELECT pay_type FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+
+update tbl_pay_order_txn_info set core_txn_ssn = SELECT core_txn_ssn FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set core_txn_time = SELECT core_txn_time FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_prod_id = SELECT pay_prod_id FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_type = SELECT pay_type FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+
+update tbl_pay_order_txn_info set core_txn_ssn = SELECT core_txn_ssn FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set core_txn_time = SELECT core_txn_time FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_prod_id = SELECT pay_prod_id FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_type = SELECT pay_type FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+
+update tbl_pay_order_txn_info set core_txn_ssn = SELECT core_txn_ssn FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set core_txn_time = SELECT core_txn_time FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_prod_id = SELECT pay_prod_id FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_type = SELECT pay_type FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+
+update tbl_pay_order_txn_info set core_txn_ssn = SELECT core_txn_ssn FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set core_txn_time = SELECT core_txn_time FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_prod_id = SELECT pay_prod_id FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_type = SELECT pay_type FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+
+update tbl_pay_order_txn_info set core_txn_ssn = SELECT core_txn_ssn FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set core_txn_time = SELECT core_txn_time FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_prod_id = SELECT pay_prod_id FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_type = SELECT pay_type FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+
+update tbl_pay_order_txn_info set core_txn_ssn = SELECT core_txn_ssn FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set core_txn_time = SELECT core_txn_time FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_prod_id = SELECT pay_prod_id FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_type = SELECT pay_type FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+
+update tbl_pay_order_txn_info set core_txn_ssn = SELECT core_txn_ssn FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set core_txn_time = SELECT core_txn_time FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_prod_id = SELECT pay_prod_id FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_type = SELECT pay_type FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+
+update tbl_pay_order_txn_info set core_txn_ssn = SELECT core_txn_ssn FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set core_txn_time = SELECT core_txn_time FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_prod_id = SELECT pay_prod_id FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_type = SELECT pay_type FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+
+update tbl_pay_order_txn_info set core_txn_ssn = SELECT core_txn_ssn FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set core_txn_time = SELECT core_txn_time FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_prod_id = SELECT pay_prod_id FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_type = SELECT pay_type FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+
+update tbl_pay_order_txn_info set core_txn_ssn = SELECT core_txn_ssn FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set core_txn_time = SELECT core_txn_time FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_prod_id = SELECT pay_prod_id FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_type = SELECT pay_type FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+
+update tbl_pay_order_txn_info set core_txn_ssn = SELECT core_txn_ssn FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set core_txn_time = SELECT core_txn_time FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_prod_id = SELECT pay_prod_id FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_type = SELECT pay_type FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+
+update tbl_pay_order_txn_info set core_txn_ssn = SELECT core_txn_ssn FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set core_txn_time = SELECT core_txn_time FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_prod_id = SELECT pay_prod_id FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_type = SELECT pay_type FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+
+update tbl_pay_order_txn_info set core_txn_ssn = SELECT core_txn_ssn FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set core_txn_time = SELECT core_txn_time FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_prod_id = SELECT pay_prod_id FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_type = SELECT pay_type FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+
+update tbl_pay_order_txn_info set core_txn_ssn = SELECT core_txn_ssn FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set core_txn_time = SELECT core_txn_time FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_prod_id = SELECT pay_prod_id FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_type = SELECT pay_type FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+
+update tbl_pay_order_txn_info set core_txn_ssn = SELECT core_txn_ssn FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set core_txn_time = SELECT core_txn_time FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_prod_id = SELECT pay_prod_id FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_type = SELECT pay_type FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+
+update tbl_pay_order_txn_info set core_txn_ssn = SELECT core_txn_ssn FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set core_txn_time = SELECT core_txn_time FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_prod_id = SELECT pay_prod_id FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_type = SELECT pay_type FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+
+update tbl_pay_order_txn_info set core_txn_ssn = SELECT core_txn_ssn FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set core_txn_time = SELECT core_txn_time FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_prod_id = SELECT pay_prod_id FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_type = SELECT pay_type FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+
+update tbl_pay_order_txn_info set core_txn_ssn = SELECT core_txn_ssn FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set core_txn_time = SELECT core_txn_time FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_prod_id = SELECT pay_prod_id FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_type = SELECT pay_type FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+
+update tbl_pay_order_txn_info set core_txn_ssn = SELECT core_txn_ssn FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set core_txn_time = SELECT core_txn_time FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_prod_id = SELECT pay_prod_id FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_type = SELECT pay_type FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+
+update tbl_pay_order_txn_info set core_txn_ssn = SELECT core_txn_ssn FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set core_txn_time = SELECT core_txn_time FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_prod_id = SELECT pay_prod_id FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_type = SELECT pay_type FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+
+update tbl_pay_order_txn_info set core_txn_ssn = SELECT core_txn_ssn FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set core_txn_time = SELECT core_txn_time FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_prod_id = SELECT pay_prod_id FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+update tbl_pay_order_txn_info set pay_type = SELECT pay_type FROM tbl_pay_core_txn_info WHERE txn_state ='00'and order_txn_ssn = '') where order_txn_ssn ='';
+
+
+
+
+
+
+
+

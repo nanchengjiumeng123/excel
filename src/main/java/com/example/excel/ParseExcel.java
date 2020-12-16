@@ -23,13 +23,17 @@ import java.util.Map;
  */
 public class ParseExcel {
 
-//    public static void main(String[] args) {
-//        ParseExcelUtil.parseExcel("D:\\dingding\\9-27\\石化建档2个-0927-1.xls","H:\\zip\\460\\alipayBill\\sql.txt", 9);
+//    public static void main1(String[] args) {
+//        ParseExcelUtil.parseExcel("D:\\dingding\\11月份\\11-10\\820200914000018-2020-10.xls","D:\\dingding\\11月份\\11-10\\sql.txt", 0);
 //    }
 
     public static void main(String[] args) {
-            ParseSettleBatch.parseExcel2("D:\\dingding\\10月份\\10-29\\清算失败2家");
+            ParseSettleBatch.parseExcel2("D:\\dingding\\12月份\\12-11");
         }
+
+//    public static void main(String[] args) {
+//        ParseSettleBatch.parseExcel3("D:\\dingding\\11月份\\11-10\\820200914000018-2020-10.xls","D:\\dingding\\11月份\\11-10\\sql.txt");
+//    }
 
 //        ParseSettleBatch.parseExcel2("D:\\dingding\\10-10\\滨州社会化服务协调中心党委清算党费缴纳明细对账单.xls"
 //        ,"D:\\dingding\\10-10\\mine.txt");
